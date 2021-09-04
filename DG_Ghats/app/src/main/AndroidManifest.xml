@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dg_ghats">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".KumbhActivity" />
+        <activity android:name=".PdfActivity2" />
+        <activity android:name=".PdfActivity1" />
+        <activity android:name=".MidActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".HotelActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".PdfActivity" />
+        <activity android:name=".CustomAdapter3" />
+        <activity android:name=".StudyActivity3" />
+        <activity android:name=".CategoryActivity3" />
+        <activity android:name=".StudyActivity2" />
+        <activity android:name=".CustomAdapter2" />
+        <activity android:name=".CategoryActivity2" />
+        <activity android:name=".CustomAdapter1" />
+        <activity android:name=".StudyActivity1" />
+        <activity android:name=".CategoryActivity1" />
+        <activity android:name=".WholeView" />
+        <activity android:name=".ExclusiveActivity" />
+        <activity android:name=".AwarenessActivity" />
+        <activity android:name=".StudyActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity
+            android:name=".PolicyActivity"
+            android:label="@string/action_policy_title" />
+        <activity
+            android:name=".Homeactivity"
+            android:label="@string/title_activity_homeactivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
