@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+ {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: red;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #F7DEA1;
+  padding: 10px;
+  height: ; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+h9 {
+  border: 3px solid black;
+  outline: ;
+  margin: auto;  
+  padding: 10px;
+  text-align: center;
+}
+{
+  box-sizing: border-box;
+}
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 400px ;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="http://kumbh.gov.in/en/important-links">Important Link</a>
+  <a href="http://kumbh.gov.in/en/policeservices">police services</a>
+  <a href="http://kumbh.gov.in/en/contact-us">Contact</a>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://i.pinimg.com/originals/f5/db/89/f5db897b6a2c8937f4a1adf3622c2089.jpg" style="width:100%">
+  <div class="text"><strong style="color:white; font-size:40px;">Kumbh Mela</strong></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://travelandleisureindia.in/wp-content/uploads/2018/12/Kumbh-Mela-Feature.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://livesinasia.com/wp-content/uploads/2019/05/kumbh-mela_Asia-1-1140x760.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<div class="content">
+<br>
+<br>
+  <h9 style="font-size:65px;">KUMBH</h9>
+  <br>
+<br>
+  <p><i>In Prayagraj, as the word Kumbh enters ones ears the picturesque vision of Triveni Sangam, the sacred confluence of the Ganga, the Yamuna and the mystical Saraswati flashes in the minds of people. At the sacred confluence huge multitudes move like waves in the ocean filled with sense of devotion. 'Shahi Snaan' of Akharas, chanting of vedic mantras and elucidations of religious hymns in the Saint pandals, proclamations of knowledge, tatvamimansa and truth by rishis, charming music, mesmerising sound of multitudes of instruments, holy dip in sangam with utmost devotion fills the heart of devotees with immense joy and offering prayers at many divine temples exhibits the greatness of Prayagraj Kumbh.</p>
+
+<p>
+<form action="http://kumbh.gov.in/en/prayagraj">
+    <input type="submit" value="Read More" />
+</form>
+<br>
+<hr>
+<iframe src="https://www.google.com/maps/place/Triveni+Sangam/@25.422036,81.881275,11z/data=!4m5!3m4!1s0x0:0xd646a67bac4072fc!8m2!3d25.4220361!4d81.8812752?hl=en-US" style="width:400px;height:300px;" class="center"></iframe>
+<hr>
+<br>
+</p>
+<h1 style="font-size:40px;">MYTHOLOGICAL SIGNIFICANCE</h1>
+<p> The origin of Kumbh Mela was transcribed by the 8th-century philosopher Shankara. The founding myth of the Kumbh Mela points out to the Puranas (compilation of ancient legends). It recounts how Gods and demons fought over the sacred pitcher (Kumbh) of Amrit (nectar of immortality) called the Ratna of Samudra Manthan. It is widely believed that Lord Vishnu (disguised as the enchantress ‘Mohini’) whisked the Kumbh out of the grasp of the covetous demons who had tried to claim it. As he took it heavenwards, a few drops of the precious nectar fell on the four sacred site we know as Haridwar, Ujjain, Nashik and Prayag. The flight and the following pursuit is said to have lasted twelve divine days which is equivalent to twelve human years and therefore, the Mela is celebrated every twelve years, staggered at each of the four sacred sites in this cycle. The corresponding rivers are believed to have turned into Amrit at the cosmic moment, giving pilgrims the chance to bathe in the essence of purity, auspiciousness, and immortality.<br>
+<br>
+Kumbh is one of the most sacred pilgrimage sites for Hindus. It became a matter of research amongst scholars when the legend of Kumbh began attracting millions of pilgrims from across the world. However, it is an established fact that Prayag has been the center stage of Kumbh and an event of such grand scale does not culminate in one day but gradually develops over a period of time.<br>
+<br>
+The term ‘Kumbh’ comes from the root ‘kumbhak’ (the sacred pitcher of elixir of immortality). There is a mention of ‘Kumbh’ and the bathing ritual associated with it in the Rig Veda (verse 10.89.7). It speaks of the benefits of bathing at sangam during this period, elimination of negative influences and rejuvenation of mind and soul. Prayers for the ‘Kumbh’ are also expressed in Atharva Veda and Yajur Veda.<br>
+<br>
+Historic evidence points towards the rule of King Harshvardhana (c.590-647 AD), as the time when Kumbh Mela got widespread recognition across geographies. Famous traveler Hsuan Tsang has prominently mentioned the grandeur of Kumbh Mela in his travelogue. The traveler’s account also summarizes King Harsh’s charities at the confluence of holy rivers where he gave gifts and donations to the scholars and sanyasis. King Harsh used to hold a great quinquennial assembly on the sands of the holy confluence at Prayag and would distribute all his possessions.<br>
+<br>
+Moreover, the historical texts also point towards evidence that Adi Shankaracharya established 10 Akharas, Ardha Kumbh and Kumbh Mela.
+
+The Kumbh Mela at Prayag is widely considered as the most significant among all the Kumbh festivals held at other locations. It is considered as the source of light and knowledge. It is believed that Prajapati Bramha performed Ashvamedha Yajna at Dashashvamedha Ghat situated at the confluence of the Ganga and Yamuna and created the universe due to which it is the most famous and significant among all other Kumbh festivals.</p><br>
+<br>
+<img src="http://kumbh.gov.in/Content/img/mytho1.png" alt="kumbh" style="width:390px;height:200px;">
+<h2>Elements in Kumbh</h2>
+<p>1. The confluence (Sangam) of all the cultures in the universe.<br>
+2. A spiritual conscience.The flow of humanity.<br>
+3. The flow of rivers, forests, and Rishi culture.<br>
+4. The flow of life.The communion of nature and human life.<br>
+5. The source of energy.<br>
+6. The path of enlightenment.<br>
+</p>
+
+<h1 style="font-size:40px;">Rituals of Kumbh<h1>
+<h3>Aarti</h3>
+<p>Aarti
+In India, since ancient times, various forms of nature like rivers, mountains, and trees have been deemed Gods. In this course, continually flowing rivers served as a lifeline and are given immense importance. In simpler words, human existence demonstrates their gratitude towards rivers through Aartis’ on the riverbanks in which people participate to show their devotion towards the rivers. At places, these numbers are in hundreds, at others may reach several thousand and on special days the participants for these rituals gather in lakhs.<br>
+<br>
+Likewise, in Tirathraj Prayagraj Aartis’ are performed on the banks of Ganga, Yamuna and at Sangam with great admiration, deep-rooted honor and devotion. In Prayagraj, Prayagraj Mela Authority and various other communities make grand arrangements for these Aartis. Lakhs of devotees take part on these occasions on special festive days. The Aartis’ are performed in the mornings and evenings in which Batuks (Priests), normally 5 to 7 in numbers chants hymns with great fervour, holding meticulously designed lamps and worship the Ganga, the Yamuna and the Sangam with utmost devotion. The lamps held by the batuks represent the importance of panchtatva. On one hand, flames of the lamps signify bowing to the waters of the sacred rivers and on the other, the holy fumes emanating from the lamps appear to play the mystic of heaven on earth.</p>
+<br>
+<img src="https://www.samacharnama.com/wp-content/uploads/2019/05/Kumbh-aarti-14-5-34_5.jpg" alt="kumbh aarti" style="width:390px;height:200px;">
+<br>
+<h3>Snan</h3>
+<p>Prayagraj Kumbh comprises of many rituals including bathing ritual, which by far is the most significant rituals performed at Kumbh. Millions of pilgrims take part in the Kumbh bathing ritual at the Triveni Sangam. Performing this sacred ritual is in accordance with the belief that by submerging oneself in the holy waters, one is purged of all their sins, release themselves and their ancestors from the cycle of rebirth and ultimate attainment of Moksha. Along with the bathing ritual, the pilgrims also worship on the banks of the holy river and participate in discourses from various sadhus and saints.<br>
+<br>
+Although taking the dip in the sacred waters on all days of Prayagraj Kumbh beginning from Makar Sankranti (first day of the month of Magh, when the Sun enters Capricorn) is considered holy, yet there are some specific auspicious bathing dates. There are magnificent processions of saints and their disciples, and members of various Akharas (religious orders) take part in the ritual of Shahi Snan also known as ‘Rajyogi Snan’ at the start of Kumbh. Shahi Snan is the central highlight of Kumbh Mela and the most important part of the celebration. Only after the Shahi Snan people are allowed to take the holy bath, in the belief that the people will get the added advantage of the essence of holy deeds and thoughts of the holy saints by taking the holy dip after them.</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Makar Sankranti')" id="defaultOpen">Makar Sankranti</button>
+  <button class="tablinks" onclick="openCity(event, 'Paush Purnima')">Paush Purnima</button>
+  <button class="tablinks" onclick="openCity(event, 'Mauni Amavasya')">Mauni Amavasya</button>
+  <button class="tablinks" onclick="openCity(event, 'Basant Panchami')">Basant Panchami</button>
+  <button class="tablinks" onclick="openCity(event, 'Maghi Purnima')">Maghi Purnima</button>
+  <button class="tablinks" onclick="openCity(event, 'Mahashivratri')">Mahashivratri</button>
+</div>
+
+<div id="Makar Sankranti" class="tabcontent">
+  <h3>Makar Sankranti</h3>
+  <p>Makar Sankranti
+This day marks the entry of Sun in its next astronomical position as per the Hindu calendar. This day marks the beginning of donations at Kumbh Mela. It is customary for pilgrims to donate as per their will.<br>
+<br>
+<strong>Date</strong> 15 Jan<br><strong>Location</strong> 2019Sangam <br><strong>Time</strong> PrayagrajFull Day</p>
+
+</div>
+
+<div id="Paush Purnima" class="tabcontent">
+  <h3>Paush Purnima</h3>
+  <p>Paush Poornima is the 15th day in the month of Shukla Paksh of the Hindu calendar month Paush. Poornima signifies the rise of the full moon. The Kumbh Mela’s unofficial beginning is marked by this day. This day also marks the beginning of Kalpvasa.</p> 
+  <br>
+<strong>Date</strong>  21 Jan, 2019 <br><strong>Location</strong> 2019Sangam <br><strong>Time</strong> PrayagrajFull Day
+</div>
+
+<div id="Mauni Amavasya" class="tabcontent">
+  <h3>Mauni Amavasya</h3>
+  <p>It is widely believed that on this date the planetary positions are most favorable for bathing in the holy river. On this day, Rishabh Dev, considered as the first sage broke his long vow of silence and bathed in the holy waters at Sangam. The maximum number of pilgrims are found in the mela on this day.</p>
+  <br>
+  <strong>Date</strong>4 Feb, 2019<br> <strong>Location</strong> 2019Sangam <br><strong>Time</strong> PrayagrajFull Day
+</div>
+
+<div id="Basant Panchami" class="tabcontent">
+  <h3>Basant Panchami</h3>
+  <p>This day is indicative of the changing of seasons and marks the arrival of Goddess of Knowledge Saraswati as per Hindu Mythology. Kalpavasis wear yellow colored clothes this day to mark the importance of Basant Panchami..</p>
+  <strong>Date</strong>  10 Feb, 2019<br><strong>Location</strong> 2019Sangam <br><strong>Time</strong> PrayagrajFull Day
+</div>
+
+<div id="Maghi Purnima" class="tabcontent">
+  <h3>Maghi Purnima</h3>
+  <p>This day is known for its association with the worship of Guru Brahaspati and the belief that Hindu god Gandharva travels from the heavens to Sangam. This day sees a surge in pilgrims at the holy ghats owing to the belief that they will be guided to heaven in their humanly form.</p>
+  <strong>Date</strong> 19 Feb, 2019 <br><strong>Location</strong> 2019Sangam <br><strong>Time</strong> PrayagrajFull Day
+</div>
+
+<div id="Mahashivratri" class="tabcontent">
+  <h3>Mahashivratri</h3>
+  <p>This day is symbolic of the last holy bath of the Kalpvasis and is directly related to Lord Shankar. As per mythology, this day is awaited in the heavens as well.</p>
+  <strong>Date</strong>  4 Mar, 2019<br> <strong>Location</strong> 2019Sangam <br><strong>Time</strong> PrayagrajFull Day
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</div>
+
+<div>
+</div>
+
+
+</body>
+</html> 
