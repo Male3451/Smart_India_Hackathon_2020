@@ -33,7 +33,13 @@ Open the application, create an account. That's it.
 N.B: It supports only in android version 4.0 or later.
 
 # Preview:
-<img src="https://raw.githubusercontent.com/imShakil/BloodBank/master/spalsh.png" alt="Splash Screen" width="98" height="200" /> <img src="https://raw.githubusercontent.com/imShakil/BloodBank/master/bloodbank2.png" alt="Splash Screen" width="100" height="200" /> <img src="https://raw.githubusercontent.com/imShakil/BloodBank/master/bloodbank6.png" alt="Splash Screen" width="100" height="200" /> <img src="https://raw.githubusercontent.com/imShakil/BloodBank/master/bloodbank3.png" alt="Splash Screen" width="100" height="200" /> <img src="https://raw.githubusercontent.com/imShakil/BloodBank/master/bloodbank4.png" alt="Splash Screen" width="100" height="200" /> <img src="https://raw.githubusercontent.com/imShakil/BloodBank/master/bloodbank1.png" alt="Splash Screen" width="100" height="200" /> <img src="https://raw.githubusercontent.com/imShakil/BloodBank/master/bloodbank5.png" alt="Splash Screen" width="100" height="200" /> 
+<img src="DG_Ghats/ScreenShots/1.jpeg" alt="Splash Screen" width="98" height="200" /><img src="DG_Ghats/ScreenShots/2.jpeg" alt="Splash Screen" width="100" height="200" /> 
+<img src="DG_Ghats/ScreenShots/3.jpeg" alt="Splash Screen" width="100" height="200" />
+<img src="DG_Ghats/ScreenShots/4.jpeg" alt="Splash Screen" width="100" height="200" />
+<img src="DG_Ghats/ScreenShots/5.jpeg" alt="Splash Screen" width="100" height="200" /> 
+<img src="DG_Ghats/ScreenShots/6.jpeg" alt="Splash Screen" width="100" height="200" />
+<img src="DG_Ghats/ScreenShots/7.jpeg" alt="Splash Screen" width="100" height="200" /> 
+<img src="DG_Ghats/ScreenShots/8.jpeg" alt="Splash Screen" width="100" height="200" /> 
 
 
 
