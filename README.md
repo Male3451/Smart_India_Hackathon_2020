@@ -13,7 +13,7 @@ Included:
        
 # Tools used
 - Firebase Database
-- Firebase Authentication
+- Repo from Maven ,Jcenter
 - Google Maps Api
 - Android Studio IDE
 - Android version 4.0 or later
