@@ -46,7 +46,7 @@ N.B: It supports only in android version 4.0 or later.
 
 # Contributing
 
-If you would like to contribute in this project, you are always welcome. There is `code` available in the `master` branch.But, please `switch` to specific version and make changes there.
+If you would like to contribute in this project, you are always welcome. There is `code` available in the `master` branch. But, please `switch` to specific version and make changes there.
 You must need to create pull request to that specific branch to get it merged.
 
 Thanks
